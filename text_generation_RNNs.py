@@ -20,7 +20,7 @@ logs_path = '/tmp/tensorflow/rnn_words'
 writer  = tf.summary.FileWriter(logs_path)
 
 # Text file containing words for training
-training_file = 'C:/Users/phani/Desktop/tf/RNN/Story.txt'
+training_file = 'C:/Users/phani/Desktop/tf/Text-Generation-Using-RNNs/Story.txt'
 
 def read_data(fname):
     with open(fname) as f:
